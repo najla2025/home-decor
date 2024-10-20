@@ -1,0 +1,245 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: burlywood;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;    
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.intro {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    background-color: #f2f8fc; /* Section background color */
+    color: #080707; /* Text color */
+    padding: 40px; /* Internal spacing */
+    border-radius: 8px; /* Rounded corners */
+    margin: 50px; /* Margin around the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.intro img {
+    max-width: 40%; /* Set a width for the image */
+    height: 60; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for the image */
+    margin-right: 20px; /* Space between image and text */
+}
+.decor{
+    height: 20; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for the image */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.text-content {
+    flex: 1; /* Allow text content to take remaining space */
+}
+.decor-image {
+    margin: 10px; /* Adjust this value as needed */
+
+}
+.video {
+    text-align: center; /* Aligns content to the left */
+}
+
+h1 {
+    margin-bottom: 60px; /* Space below the main title */
+}
+
+h2 {
+    margin-top: 20px; /* Space above the subtitle */
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: gainsboro;
+    color: rgb(11, 10, 10);
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+#carouselExample {
+    position: relative;
+    margin: auto; /* Center the carousel */
+    max-width: 800px; /* Set a max width */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.carousel-inner img {
+    width: 100%; /* Ensure images fill the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Adjust button width */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Background for icons */
+    border-radius: 50%; /* Round icons */
+}
+
+.carousel-control-prev-icon {
+    padding: 10px; /* Padding for better touch area */
+}
+
+.carousel-control-next-icon {
+    padding: 10px; /* Padding for better touch area */
+}
+
+
+.home {
+    display: block; /* Make sure the image is treated as a block */
+    max-width: 7%; /* Ensure it is responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0; /* Remove default margin */
+    float: left; /* Float the image to the left */
+    margin-right: 15px; /* Add some space to the right of the image */
+}
+
+
+.product-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}
+
+.product-item h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.product-item span {
+    display: block;
+    margin-top: 5px;
+    color: #777;
+}
+
+
+
+.gallery {
+    width: 100%; /* Prend toute la largeur de la page */
+    padding: 20px; /* Espacement intérieur */
+}
+
+h1 {
+    text-align: center; /* Centre le titre */
+    color: #333; /* Couleur du texte */
+    margin-bottom: 20px; /* Espacement sous le titre */
+}
+
+.image-grid {
+    display: flex; /* Utilise flexbox pour aligner horizontalement */
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si nécessaire */
+    justify-content: space-around; /* Espacement entre les éléments */
+}
+
+.image-item {
+    text-align: center; /* Centre le texte dans chaque item */
+    background-color: #fff; /* Couleur de fond des items */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 10px; /* Espacement intérieur */
+    margin: 10px; /* Marge entre les éléments */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    flex: 0 1 200px; /* Flexibilité des items */
+}
+
+img {
+    width: 100%; /* Largeur des images */
+    height: auto; /* Maintient le ratio de l'image */
+    border-radius: 5px; /* Coins arrondis */
+}
